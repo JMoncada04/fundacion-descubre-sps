@@ -271,3 +271,55 @@ export const galleryItems = [
   }
 ]
 
+export const blogPosts = [
+  {
+    id: 'ruta-corta',
+    category: 'Planificación',
+    date: '2 agosto 2026',
+    title: 'Cómo organizar una ruta corta por San Pedro Sula',
+    excerpt: 'Una ruta sencilla debe considerar el tiempo disponible, la distancia entre paradas y los horarios de cada lugar.',
+    content: 'Comienza seleccionando dos o tres puntos cercanos. Coloca primero los espacios urbanos y deja los recorridos naturales para una visita con mayor preparación. Verifica horarios, condiciones climáticas y transporte antes de salir.'
+  },
+  {
+    id: 'turismo-responsable',
+    category: 'Educación',
+    date: '25 julio 2026',
+    title: 'Principios básicos del turismo responsable',
+    excerpt: 'Visitar un lugar también implica respetar su entorno, sus normas y la experiencia de otros visitantes.',
+    content: 'Mantén limpios los espacios, evita dañar la vegetación, respeta las indicaciones y utiliza rutas autorizadas. Una visita responsable reduce impactos y permite que más personas disfruten el mismo lugar.'
+  },
+  {
+    id: 'imagenes-accesibles',
+    category: 'Accesibilidad',
+    date: '18 julio 2026',
+    title: 'Por qué las imágenes necesitan texto alternativo',
+    excerpt: 'Los atributos alt describen la información principal de una fotografía y mejoran la accesibilidad del sitio.',
+    content: 'Un texto alternativo debe ser breve, específico y útil. No necesita repetir palabras como imagen o fotografía cuando el contexto ya lo indica. En este sitio cada imagen incluye una descripción relacionada con el paisaje mostrado.'
+  },
+  {
+    id: 'merendon',
+    category: 'Naturaleza',
+    date: '11 julio 2026',
+    title: 'Preparación antes de visitar una zona de montaña',
+    excerpt: 'La planificación reduce riesgos y ayuda a cuidar las áreas naturales cercanas a la ciudad.',
+    content: 'Revisa el clima, utiliza calzado adecuado, lleva agua y evita ingresar a rutas no autorizadas. Para recorridos largos se recomienda buscar orientación local y no depender únicamente de la señal del teléfono.'
+  },
+  {
+    id: 'patrimonio',
+    category: 'Cultura',
+    date: '4 julio 2026',
+    title: 'El patrimonio como recurso educativo',
+    excerpt: 'Los espacios culturales ayudan a comprender la historia y la identidad de una comunidad.',
+    content: 'Una visita educativa puede combinar observación, lectura de información disponible y conversación sobre la conservación del lugar. La meta no es solo tomar fotografías, sino comprender por qué el espacio es importante.'
+  },
+  {
+    id: 'mapas',
+    category: 'Tecnología',
+    date: '27 junio 2026',
+    title: 'Uso práctico de Google Maps para recorridos',
+    excerpt: 'Una ruta digital permite ordenar paradas y visualizar el traslado entre diferentes puntos.',
+    content: 'El planificador de este sitio genera una dirección web compatible con Google Maps. El primer lugar funciona como origen, el último como destino y los puntos restantes como paradas intermedias.'
+  }
+]
+
+

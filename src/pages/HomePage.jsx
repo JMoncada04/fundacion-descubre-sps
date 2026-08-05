@@ -19,13 +19,13 @@ export default function HomePage() {
               <Link className="btn-light" to="/como-ayudar">Cómo ayudar</Link>
             </div>
           </div>
-          <aside className="card border-white/20 bg-white/10 p-6 text-white backdrop-blur-xl" aria-label="Resumen de la organización">
+          <aside className="card border-white/20 bg-black p-6 backdrop-blur-xl" aria-label="Resumen de la organización">
             <p className="text-xs font-black uppercase tracking-[0.2em] text-amber-300">Nuestra misión</p>
-            <p className="mt-4 text-2xl font-black leading-tight">Acercar la cultura y la naturaleza de San Pedro Sula a través de experiencias responsables.</p>
+            <p className="mt-4 text-2xl text-amber-950 leading-tight">Acercar la cultura y la naturaleza de San Pedro Sula a través de experiencias responsables.</p>
             <dl className="mt-7 grid gap-5 sm:grid-cols-3 lg:grid-cols-1">
-              <div><dt className="text-3xl font-black">3</dt><dd className="text-sm text-slate-200">áreas de trabajo</dd></div>
-              <div><dt className="text-3xl font-black">10</dt><dd className="text-sm text-slate-200">páginas informativas</dd></div>
-              <div><dt className="text-3xl font-black">0</dt><dd className="text-sm text-slate-200">pagos reales procesados</dd></div>
+              <div><dt className="text-3xl font-black text-black">3</dt><dd className="text-sm text-slate-500">áreas de trabajo</dd></div>
+              <div><dt className="text-3xl font-black text-black">10</dt><dd className="text-sm text-slate-500">páginas informativas</dd></div>
+              <div><dt className="text-3xl font-black text-black">0</dt><dd className="text-sm text-slate-500">pagos reales procesados</dd></div>
             </dl>
           </aside>
         </div>
