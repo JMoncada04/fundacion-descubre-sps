@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage'
 import ContactPage from './pages/ContactPage'
 import FaqPage from './pages/FaqPage'
 import EventsPage from './pages/EventsPage'
+import DonationsPage from './pages/DonationsPage'
 // import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           {/* <Route path="/blog" element={<BlogPage />} /> */}
           {/* <Route path="/eventos" element={<EventsPage />} /> */}
            <Route path="/eventos" element={<EventsPage />} />
+          <Route path="/donaciones" element={<DonationsPage />} />
           <Route path="/contacto" element={<ContactPage />} />
           {/* <Route path="/donaciones" element={<DonationsPage />} /> */}
           <Route path="/preguntas-frecuentes" element={<FaqPage />} />
