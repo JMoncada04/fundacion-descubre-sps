@@ -13,7 +13,7 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/nosotros" element={<AboutPage />} /> */}
+          <Route path="/nosotros" element={<AboutPage />} />
           {/* <Route path="/programas" element={<ProgramsPage />} /> */}
           {/* <Route path="/como-ayudar" element={<HelpPage />} /> */}
           {/* <Route path="/galeria" element={<GalleryPage />} /> */}
