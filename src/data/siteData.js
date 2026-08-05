@@ -146,4 +146,40 @@ export const events = [
     category: 'Cultura',
     description: 'Actividad académica de ejemplo enfocada en el valor de conservar y comunicar el patrimonio.'
   }
+
+]
+
+export const faqItems = [
+  {
+    question: '¿La Fundación Descubre SPS es una organización real?',
+    answer: 'Este sitio representa una organización simulada creada para un proyecto académico. Sus formularios y actividades son demostrativos.'
+  },
+  {
+    question: '¿El planificador guarda mi ubicación?',
+    answer: 'No. El planificador solo usa las opciones seleccionadas en el navegador y genera un enlace hacia Google Maps.'
+  },
+  {
+    question: '¿Las fotografías son reales?',
+    answer: 'Sí. El proyecto utiliza imágenes reales de San Pedro Sula y su entorno, conservadas desde la versión original del sitio.'
+  },
+  {
+    question: '¿Puedo realizar una donación real?',
+    answer: 'No. El formulario de donaciones es una simulación académica y no solicita datos bancarios ni procesa pagos.'
+  },
+  {
+    question: '¿Cómo puedo participar como voluntario?',
+    answer: 'La página Cómo ayudar muestra opciones de participación y un formulario demostrativo para elegir un área de interés.'
+  },
+  {
+    question: '¿El sitio funciona en teléfonos?',
+    answer: 'Sí. La navegación, tarjetas, galería, formularios y planificador se adaptan a pantallas móviles.'
+  },
+  {
+    question: '¿Por qué se utiliza una SPA?',
+    answer: 'La aplicación usa React, Tailwind CSS y Vite. Cada sección tiene su propia ruta y comparte componentes reutilizables.'
+  },
+  {
+    question: '¿Dónde se publicará el proyecto?',
+    answer: 'El repositorio incluye un flujo de GitHub Actions preparado para construir el sitio y publicarlo en GitHub Pages.'
+  }
 ]
