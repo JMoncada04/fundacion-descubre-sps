@@ -183,3 +183,91 @@ export const faqItems = [
     answer: 'El repositorio incluye un flujo de GitHub Actions preparado para construir el sitio y publicarlo en GitHub Pages.'
   }
 ]
+
+export const routePlans = {
+  cultura: {
+    3: ['Parque Central', 'Catedral de San Pedro Apóstol'],
+    6: ['Museo de Antropología e Historia', 'Parque Central', 'Catedral de San Pedro Apóstol'],
+    9: ['Museo de Antropología e Historia', 'Parque Central', 'Catedral de San Pedro Apóstol', 'Mercado Guamilito']
+  },
+  naturaleza: {
+    3: ['Vista desde El Merendón'],
+    6: ['Sendero Bella Vista', 'Vista desde El Merendón'],
+    9: ['Parque Nacional Cusuco', 'Vista desde El Merendón']
+  },
+  mixto: {
+    3: ['Parque Central', 'Mercado Guamilito'],
+    6: ['Parque Central', 'Mercado Guamilito', 'Vista desde El Merendón'],
+    9: ['Museo de Antropología e Historia', 'Parque Central', 'Mercado Guamilito', 'Vista desde El Merendón']
+  }
+}
+
+export const mapLocations = {
+  'Parque Central': 'Parque Central de San Pedro Sula, Cortés, Honduras',
+  'Catedral de San Pedro Apóstol': 'Catedral San Pedro Apóstol, San Pedro Sula, Cortés, Honduras',
+  'Museo de Antropología e Historia': 'Museo de Antropología e Historia, San Pedro Sula, Cortés, Honduras',
+  'Mercado Guamilito': 'Mercado Guamilito, San Pedro Sula, Cortés, Honduras',
+  'Vista desde El Merendón': 'El Merendón, San Pedro Sula, Cortés, Honduras',
+  'Sendero Bella Vista': 'Sendero Bella Vista, San Pedro Sula, Cortés, Honduras',
+  'Parque Nacional Cusuco': 'Parque Nacional Cusuco, Cortés, Honduras'
+}
+
+export const galleryItems = [
+  {
+    id: 1,
+    category: 'ciudad',
+    image: 'panorama-sps.webp',
+    title: 'Panorámica de San Pedro Sula',
+    alt: 'Panorámica real de San Pedro Sula rodeada por las montañas del Valle de Sula'
+  },
+  {
+    id: 2,
+    category: 'naturaleza',
+    image: 'vista-merendon.webp',
+    title: 'Vista desde El Merendón',
+    alt: 'Vista real de San Pedro Sula desde la zona montañosa de El Merendón'
+  },
+  {
+    id: 3,
+    category: 'cultura',
+    image: 'centro-sps.webp',
+    title: 'Entorno urbano del centro',
+    alt: 'Vista real del centro de San Pedro Sula con edificios urbanos y montañas al fondo'
+  },
+  {
+    id: 4,
+    category: 'naturaleza',
+    image: 'cusuco.webp',
+    title: 'Bosque del Parque Nacional Cusuco',
+    alt: 'Bosque real con pinos y helechos en el Parque Nacional Cusuco, Honduras'
+  },
+  {
+    id: 5,
+    category: 'paisaje',
+    image: 'vista-merendon.webp',
+    title: 'Ciudad y montaña',
+    alt: 'Paisaje real donde se observa San Pedro Sula y las montañas de su entorno'
+  },
+  {
+    id: 6,
+    category: 'ciudad',
+    image: 'panorama-sps.webp',
+    title: 'Valle de Sula',
+    alt: 'Vista panorámica real del área urbana de San Pedro Sula en el Valle de Sula'
+  },
+  {
+    id: 7,
+    category: 'naturaleza',
+    image: 'cusuco.webp',
+    title: 'Vegetación de montaña',
+    alt: 'Vegetación real del bosque montañoso del Parque Nacional Cusuco'
+  },
+  {
+    id: 8,
+    category: 'cultura',
+    image: 'centro-sps.webp',
+    title: 'Paisaje urbano sampedrano',
+    alt: 'Paisaje urbano real de San Pedro Sula con las montañas al fondo'
+  }
+]
+

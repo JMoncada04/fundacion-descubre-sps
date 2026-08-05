@@ -2,11 +2,16 @@ import { Route, Routes } from 'react-router'
 import ErrorBoundary from './components/ErrorBoundary'
 import Layout from './components/Layout'
 import HomePage from './pages/HomePage'
-import ContactPage from './pages/ContactPage'
-import FaqPage from './pages/FaqPage'
+import AboutPage from './pages/AboutPage'
+import ProgramsPage from './pages/ProgramsPage'
+import HelpPage from './pages/HelpPage'
+import GalleryPage from './pages/GalleryPage'
+import BlogPage from './pages/BlogPage'
 import EventsPage from './pages/EventsPage'
+import ContactPage from './pages/ContactPage'
 import DonationsPage from './pages/DonationsPage'
-// import NotFoundPage from './pages/NotFoundPage'
+import FaqPage from './pages/FaqPage'
+import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
 
@@ -16,17 +21,17 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/nosotros" element={<AboutPage />} />
-          {/* <Route path="/programas" element={<ProgramsPage />} /> */}
-          {/* <Route path="/como-ayudar" element={<HelpPage />} /> */}
-          {/* <Route path="/galeria" element={<GalleryPage />} /> */}
-          {/* <Route path="/blog" element={<BlogPage />} /> */}
-          {/* <Route path="/eventos" element={<EventsPage />} /> */}
+          <Route path="/programas" element={<ProgramsPage />} />
+          <Route path="/como-ayudar" element={<HelpPage />} />
+          <Route path="/galeria" element={<GalleryPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/eventos" element={<EventsPage />} />
            <Route path="/eventos" element={<EventsPage />} />
           <Route path="/donaciones" element={<DonationsPage />} />
           <Route path="/contacto" element={<ContactPage />} />
-          {/* <Route path="/donaciones" element={<DonationsPage />} /> */}
+          <Route path="/donaciones" element={<DonationsPage />} />
           <Route path="/preguntas-frecuentes" element={<FaqPage />} />
-          {/* <Route path="*" element={<NotFoundPage />} /> */}
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Layout>
     </ErrorBoundary>
