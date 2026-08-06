@@ -11,7 +11,7 @@ export default function BlogPage() {
       <PageHero kicker="Blog" title="Ideas para conocer y cuidar la ciudad" description="Artículos breves sobre rutas, accesibilidad, cultura, tecnología y naturaleza, creados para una lectura sencilla." image="centro-sps.webp" />
 
       <section className="container-page py-20">
-        <SectionHeading kicker="Publicaciones" title="Artículos recientes" description="Cada tarjeta amplía su contenido sin abandonar la página, demostrando interacción mediante React." />
+        <SectionHeading kicker="Publicaciones" title="Artículos recientes" description="Cada tarjeta amplía su contenido sin abandonar la página" />
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {blogPosts.map((post) => {
             const isOpen = openPost === post.id
